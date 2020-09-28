@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="A survey">
+    <meta name="author" content="John McFarland">
+    <meta property = "og:image" content="">
+    <meta property = "og:title" content="Survey">
+    <meta property = "og:description" content="A survey">
+    <link rel="icon"  href="" type="image/x-icon">
+    <title>Survey</title>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url('images/lightBackground.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        </style>
+    
+        <nav>
+        <fieldset>
+            <legend>Links to other pages</legend>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </fieldset>
+        </nav>
+        <header>
+            <h1>THANK YOU!</h1>
+            <p>We appreciate you visiting our site. <i>Without users like you we could not continue.</i></p>
+
+            <p>
+                <b>PLEASE</b> take a minute to fill out the survey to help us improve.
+            </p>
+
+        </header>
+
+        <main>
+            <form action="#" method="POST">
+                <fieldset>
+                <legend>Survey</legend>
+                <ul>
+                    <li>
+                        <label id="fullname">Name</label>
+                        <input type="text" id="fullname" name="user.fullname">
+                    </li>
+                    <li>
+                        <label id="email">Email</label>
+                        <input type="text" id = "email" name="user.email">
+
+                    </li>
+                    <li>
+                        <label id="pnumber">Phone Number</label>
+                        <input type="number" id="pnumber" name="user.pnumber">
+                    </li>
+                    <li>
+                        <label id="comments">Please tell us what to improve on</label><br>
+                        <textarea id="comments" name="user.comments" cols="30" rows="10"></textarea>
+                    </li>
+                </ul>
+                <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </main>
+    
+</body>
+</html>

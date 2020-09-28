@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="The homepage">
+    <meta name="author" content="John McFarland">
+    <meta property = "og:image" content="">
+    <meta property = "og:title" content="Home Page">
+    <meta property = "og:description" content="The Home Page">
+    <link rel="icon"  href="" type="image/x-icon">
+    <title>Home Page</title>
+    
+</head>
+<body>
+    <style>
+        body {
+            background-image: url('images/lightBackground.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        </style>
+    <nav>
+        <fieldset>
+            <legend>Links to other pages</legend>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </fieldset>
+    </nav>
+    <header>
+    <h1>Welcome to my Page!</h1>
+    <p><i>On this site you can take our short quiz and fill out the survey!</i></p>
+    <p>
+        <b>Only way to get better is to hear what you say!</b>
+    </p>
+    <h2>Login Below</h2>
+</header>
+<main>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>User Information</legend>
+            <ul>
+                <li>
+                    <label id="Username">Username</label>
+                    <input type="text" id="Username" name = "user.Username">
+                </li>
+                <li>
+                    <label id="password">Password</label>
+                    <input type="password" id="password" name="user.password">
+
+                </li>
+                <li>
+                    <label id="number">User Identification Number</label>
+                    <input type="number" id="number" name="user.number">
+                </li>
+                <li>
+                    <label id="date">Today's date</label>
+                    <input type="date" id="date" name="user.date">
+                </li>
+                <button type="submit">Submit</button>
+            </ul>
+        </fieldset>
+    </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="A quiz">
+    <meta name="author" content="John McFarland">
+    <meta property = "og:image" content="">
+    <meta property = "og:title" content="Quiz">
+    <meta property = "og:description" content="A quiz">
+    <link rel="icon"  href="" type="image/x-icon">
+    <title>Quiz</title>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url('images/lightBackground.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        </style>
+    <header>
+        <nav>
+        <fieldset>
+            <legend>Links to other pages</legend>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </fieldset>
+        </nav>
+    </header>
+    <main>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Quiz</legend><br>
+            <label id="science">What is the <i>scientific</i> name for H<sub>2</sub>O?</label>
+            <ul>
+                
+                <li><input type="radio" id="science" name="user.science">Fire</li>
+                <li><input type="radio" id="science" name="user.science">Air</li>
+                <li><input type="radio" id="science" name="user.science">Rock</li>
+                <li><input type="radio" id="science" name="user.science">Water</li>
+            </ul>
+                <label id="popular">What is the <i>most popular</i> name for December 25<sup>th</sup>?</label>
+            <ul>    
+                <li><input type="radio" id="popular" name="user.popular">Christmas</li>
+                <li><input type="radio" id="popular" name="user.popular">Thanksgiving</li>
+                <li><input type="radio" id="popular" name="user.popular">Halloween</li>
+                <li><input type="radio" id="popular" name="user.popular">Easter</li>
+            </ul>
+            <label id="sugar">Which of the following is the chemical code for <b>sugar</b>?</label>
+            <ul>
+                <li><input type="checkbox" id="sugar" name="user.sugar">C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></li>
+                <li><input type="checkbox" id="sugar" name="user.sugar1">C<sub>5</sub>H<sub>10</sub>O<sub>5</sub></li>
+                <li><input type="checkbox" id="sugar" name="user.sugar2">C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></li>
+                <li><input type="checkbox" id="sugar" name="user.sugar3">C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></li>
+            </ul>
+            <label id="even">Which of the following are <b>even</b>?</label>
+            <ul>
+                <li><input type="checkbox" id="even" name="user.even">1<sup>st</sup></li>
+                <li><input type="checkbox" id="even" name="user.even1">2<sup>nd</sup></li>
+                <li><input type="checkbox" id="even" name="user.even2">3<sup>rd</sup></li>
+                <li><input type="checkbox" id="even" name="user.even3">4<sup>th</sup></li>
+            </ul>
+            <button type="submit">Submit</button>
+
+        </fieldset>
+    </form>
+    </main>
+</body>
+</html>
